@@ -1,0 +1,11 @@
+.grid-container-page {
+    display: grid;
+    height: 100%;
+    grid-template-rows: auto 1fr auto;
+}
+
+.cell-page {
+  padding-top: 7px;
+  margin-left: 3px;
+  margin-right: 3px;
+}

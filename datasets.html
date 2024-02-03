@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href='page.css' rel='stylesheet' />
+  <link href='headerfooter.css' rel='stylesheet' />
+  <link href='../_CSS/all.css' rel='stylesheet' />
+  <link href='../_CSS/colours.css' rel='stylesheet' />
+  <link href='../_CSS/table.css' rel='stylesheet' />
+  <script src="json\config.js">    </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Datasets</title>
+
+</head>
+
+<body class="darkTheme">
+  <div class="grid-container-page">
+
+    <div class="grid-container-heading grid-item">
+
+      <div class="headerFlex">
+
+        <span class="logoSpan"> <a href="app.html">
+            <img class="logoImg" src="PowerClickLogo.svg" width="140"></a>
+        </span>
+
+      </div>
+      <div class="headerFlex">
+        <span class="spanHeader">Datasets : 1</span>
+      </div>
+      <div class="headerFlex">
+        <span class="spanHeader" id="spReleaseDate">Last refresh : 12-01-20</span>
+      </div>
+      <div class="headerFlex">
+        <span class="spanHeader">In Development: Korea</span>
+      </div>
+
+
+    </div>
+
+    <div class="grid-item cell-page table-wrapper spaced">
+      <table style="table-layout: auto;" class="T2">
+        <thr>
+          <th>Country</th>
+          <th>Source</th>
+          <th>Frequency</th>
+          <!-- <th>Granuality</th> -->
+          <th>Last Update</th>
+          <th>Data from</th>
+          </tr>
+          <tr>
+            <td class="card-text">Ireland</td>
+            <td class="card-text">
+              https://www.eirgridgroup.com/customer-and-industry/general-customer-information/outage-information/</td>
+            <td class="card-text">Weekly</td>
+            <!-- <td class="card-text">Minute</td> -->
+            <td class="card-text" id="dvUpdateDate">12-01-20</td>
+            <td class="card-text">12-01-20</td>
+          </tr>
+
+      </table>
+
+
+    </div>
+
+    <div class="grid-container-footer grid-item ">
+
+      <div class="footerFlex">
+        <span class="spanHeader">©2021 Synthase Limited. All rights reserved</span>
+      </div>
+      <div class="footerFlex"> <span class="spanHeader">
+          <a href="mailto:info@unavailability.co">contact@unavailability.net</a>
+        </span>
+      </div>
+      <div class="footerFlex">
+        <span class="spanHeader">
+
+          <a href="privacy.html" target="_blank">privacy</a></span>
+      </div>
+      <div class="footerFlex">
+        <span class="spanHeader">
+
+          <a href="versions.html" target="_blank">v1.0</a></span>
+      </div>
+    </div>
+
+  </div>
+</body>
+<script>
+
+  let lastRefreshDateString = `Last refresh : ${lastRefreshDate}`;
+  document.getElementById('spReleaseDate').innerHTML = lastRefreshDateString;
+  document.getElementById('dvUpdateDate').innerHTML = lastRefreshDate;
+
+</script>
+
+</html>

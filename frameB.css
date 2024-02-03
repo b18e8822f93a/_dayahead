@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr ;
+    grid-template-rows: auto auto 1fr auto;
+}
+
+.innerGrid {
+    background-color: rgb(59, 55, 55);
+    display: grid;
+
+    /* grid-column: 1 / span 2; */
+    grid-template-rows: 1fr 1fr;
+    overflow: auto;
+    grid-row-gap: 3px;
+    padding: 4px;
+
+}
+
+.flex1 {
+   display: flex;
+   flex-direction: row;
+ 
+}
+
+.dvFuels {
+    width: 100%;
+}
+
+
+

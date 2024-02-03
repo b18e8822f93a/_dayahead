@@ -1,0 +1,100 @@
+.cell1 {
+    padding: 4px;
+
+}
+
+.cell11 {
+    padding: 4px;
+}
+
+.cell2 {
+
+    /* background-color: blue; */
+
+    /* margin: 30px; */
+    overflow: auto;
+}
+
+
+.cell3 {
+    /* background-color: red; */
+
+    overflow: auto;
+}
+
+.cell4 {
+    /* background-color: yellow; */
+    grid-column: 1 / span 2;
+}
+
+.helper {
+
+    background-color: red;
+    padding: 0.25rem;
+    width: 140px;
+
+}
+
+@media screen and (max-width: 6000px) {
+    .dvChart {
+        height: 100%;
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+
+
+
+
+    .dvChart {
+        height: 100vh;
+    }
+
+
+
+    .cell1 {
+        padding: 0px;
+
+    }
+
+    .cell11 {
+        padding: 0px;
+    }
+
+
+    /* switch to vertical checkbox and radio buttons */
+    .btn-group {
+        display: flex;
+        flex-direction: column;
+        padding-top: 2px;
+        width: 100%;
+    }
+
+    .grid-container {
+        height: auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .innerGrid {
+        grid-column: 1;
+        background-color: rgb(51, 153, 97);
+        grid-template-rows: auto auto;
+    }
+
+    .cell4 {
+
+        grid-column: 1;
+    }
+
+    .helper {
+
+        background-color: blue;
+        padding: 0.25rem;
+        width: 100%;
+        text-align: center;
+    }
+}
