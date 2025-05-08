@@ -201,7 +201,7 @@ table.T3 {
 }
 
 .dvTable {
-    -webkit-overflow-scrolling: touch;
+    display: none;
 }
 
 #dvSpinnerContainer {
@@ -221,6 +221,7 @@ table.T3 {
 
     #dvTable {
         display: flex;
+        -webkit-overflow-scrolling: touch;
     }
 
     #dv1 {
