@@ -1,19 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="en"><head>
 
-<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-
-  <link href="css2.css" rel="stylesheet" />
-
-  <script src="tsc2.min.js"></script>
-
-  <script>
-    let x = 2 + 3 + 4;
-  </script>
-  <script>window.onload = () => onloadWindow(uiPageObj)</script>
   <style>
     #dvContainer {
       flex: 1 1 auto;
@@ -27,8 +16,54 @@
     }
   </style>
 
-</head>
+<title>Play</title><link href="http://127.0.0.1:5503/_dayahead/css2.css" rel="stylesheet"></head>
 
-<body class="lightTheme"> </body>
-
-</html>
+<body class="lightTheme">
+    <div id="dvHeader"><header>
+    <div class="content">
+      <nav class="navbar navbar-expand-md  navbar-light pt-1 pb-1">
+        <div class="container-fluid">
+          <img class="logo" src="logo.svg">
+          <button class="navbar-toggler" type="button" data-bs-target="#collapsibleNavbar" data-bs-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link link_on" id="btPlayPage" href="play">Play</a></li><li class="nav-item"><a class="nav-link link_off" id="btResultsPage" href="results">Results</a></li><li class="nav-item"><a class="nav-link link_off" id="btDailyPage" href="daily">Daily</a></li><li class="nav-item"><a class="nav-link link_off" id="btDataPage" href="data">Data</a></li><li class="nav-item"><a class="nav-link link_off" id="btBlogPage" href="blog">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header></div>
+    <div id="dvTitle" class="container hiding">
+      <h1 class="myCss pt-2 pb-2">
+        <span id="spHeaderText" class="fw-light"></span>
+      </h1>
+    </div>
+     <div id="dvSpinnerContainer" class="hiding2">
+    <section> <div id="dvSpinner" class="loader"></div></section>
+    
+    </div>
+    <div id="dvContainer" class=""></div>
+    <div id="dvFooter"> <footer>
+    <div class="content-bottom w-100 d-flex align-items-center">
+      <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+          <span class="d-flex align-items-center footer-references">Copyright<a href="https://www.synthase.co.uk" target="_blank">&nbsp;Synthase&nbsp;</a> Limited 2025. All rights reserved</span>
+          <div class="d-flex align-items-center footer-references">
+            <a href="mailto:contact@dayahead.co.uk" class="me-2">contact@dayahead.co.uk</a>
+            <a href="privacy.html" class="me-2">privacy</a>
+            <div id="cpSwitchBox">
+              <label class="switch">
+                <input id="swTheme" type="checkbox">
+                  <span class="slider round"></span>
+                
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer></div>
+  </body></html>
