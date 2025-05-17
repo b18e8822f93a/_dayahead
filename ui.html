@@ -5,10 +5,21 @@
 
   <style>
 html, body {
-  height: 100vh;
+  height: 100%;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 *, *::before, *::after {
@@ -43,12 +54,12 @@ body {
 
 <body class="lightTheme">
     <div id="dvHeader">
-    there i am  2
+    there i am  3
     </div>
     
-    <div id="dvContainer" class="">daniel here2</div>
+    <div id="dvContainer" class="">daniel here3</div>
     <div id="dvFooter"> 
-      in the foooter2
+      in the foooter3
     </div>
   </body>
 </html>
