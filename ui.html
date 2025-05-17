@@ -10,11 +10,22 @@
     <script src="tsc2.min.js"></script>
 
     <script>
-      let x = 2 + 2;
+      let x = 2 + 3;
     </script>
     <script>window.onload = () => onloadWindow(uiPageObj)</script>
       <style>
-
+ #dvContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+ 
+}
+    #dvContainer iframe {
+  flex: 1 1 auto;
+  width: 100%;
+  border: none;
+  display: block;
+}
   </style>
 
   </head>
