@@ -226,20 +226,6 @@ img.logo {
     max-width: 1200px;
 }
 
-.myCss {
-    text-align: center;
-}table.T2  {
-    table-layout: auto;
-    width: 100%;
-    border: 1px solid var(--tbBorder);
-    border-collapse: collapse;
-    background-color: var(--tbBackground);
-}
-
-#cpSwitchBox {
-    display: none;
-    overflow: hidden;
-}
 
 #dvFooter {
     border-top: 1px dashed rgb(110, 110, 110);
@@ -249,46 +235,3 @@ img.logo {
     border-bottom: 1px dashed rgb(110, 110, 110);
 }
 
-:root {
-    
-    --main-color: #2e3031;
-    --main-bg-color: #6db3db;
-    --main-bg-color: #fbfdff;
-  
-    --second-colour : #e48583; 
-    --second-bg-color: rgba(230, 224, 224, 0.918);
-  
-    --third-bg-color: rgb(59, 59, 59);
-    --third-color: rgb(48, 42, 42);
-  
-    --textA:  rgb(14, 14, 14);
-    --dashplease: rgb(255, 246, 230);
-  
-    --tbBackground: white;
-    --tdBorder: rgb(159, 159, 16);
-  
-    --thBorder: lightblue;
-    --thBackground: white;
-  
-    --tdBorder: rgb(165, 170, 169);
-    --tdColor: rgb(48, 52, 53);
-  
-    --aColor  :rgb(122, 122, 122);
-    --aHoverColor : rgb(14, 14, 14);
-  
-    --btn-outline : 33, 107, 219;
-    --btn-outline2 : rgb(33, 107, 219);
-    --swBackgroundOff :rgb(33, 219, 95);
-    --swBackgroundOn :rgb(219, 33, 142);
-  }
-
- .word {
-
-    display: inline-block;
-    border-radius: .2em;
-    text-align: center;
-    text-decoration: none;
-    padding: 0 .4rem;
-    color: #fff;
-    background-color: #b5d8d8;
-}
