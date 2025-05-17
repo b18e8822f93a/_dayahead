@@ -4,20 +4,24 @@
   <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
 
   <style>
-  html, body {
-  height: 100%;
+html, body {
+  height: 100vh;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 
 body {
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
 #dvHeader {
-  /* No fixed height, takes content size */
   border-bottom: 1px dashed rgb(110, 110, 110);
   background-color: lightseagreen;
 }
@@ -25,11 +29,10 @@ body {
 #dvContainer {
   flex: 1 1 auto;
   background-color: #800c4f;
-  min-height: 0; /* Prevents overflow issues */
+  min-height: 0;
 }
 
 #dvFooter {
-  /* No fixed height, takes content size */
   border-top: 1px dashed rgb(110, 110, 110);
   background-color: coral;
 }
@@ -40,12 +43,12 @@ body {
 
 <body class="lightTheme">
     <div id="dvHeader">
-    there i am 
+    there i am  2
     </div>
     
-    <div id="dvContainer" class="">daniel here</div>
+    <div id="dvContainer" class="">daniel here2</div>
     <div id="dvFooter"> 
-      in the foooter
+      in the foooter2
     </div>
   </body>
 </html>
