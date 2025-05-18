@@ -3,65 +3,7 @@
     <script src="tsc.min.js"></script>
     <link href="css.css" rel="stylesheet" />
     <link href="cdn.css" rel="stylesheet" />
+    <link href="play.css" rel="stylesheet" />
     <script>window.onload = () => onloadWindow(playObj)</script>
-
-   <style>
-
-      #dvCards {
-         display: none;
-      }
-    #dv0 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 2px;
-    }
-
-    #dvCard .list-group
-    {
-      flex-direction: row;
-      justify-content: space-between;
-     
-    }
-
-    /* For screens up to 600px wide (typical mobile) */
-    @media (max-width: 600px ) {
-      #dv0 {
-        display: flex;
-        flex-direction: column; 
-        padding : 3px;
-      }    
-
-       #spRequested {
-        display: none;
-      }
-    }
-
-    /* For screens up to 600px wide (typical mobile) */
-    @media (max-height: 600px) and (orientation: landscape) {
-
-     
-      #dv0 {
-        display: none;
-        flex-direction: column;
-        grid-template-rows: 1fr; /* Stack columns vertically */
-        grid-gap: 8px;
-      }
-
-      #dvCard .list-group-item {
-        flex-direction: row;
-        justify-content: space-between;
-        padding : 1px;
-        padding-top: 0.2rem;
-        padding-right: .2rem;
-        padding-bottom: 0.2rem;
-        padding-left: .2rem;
-
-     
-     
-      }
-    }
-    </style>
-
+    <script src="today.json.js"></script>
 </head>
-
-<script src="today.json.js"></script>

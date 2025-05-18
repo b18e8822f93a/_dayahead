@@ -1,0 +1,7 @@
+/* For screens up to 600px wide (typical mobile) */
+@media (max-width: 600px ) {
+    
+    #spRequested {
+        display: none;
+    }
+}
