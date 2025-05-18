@@ -4,4 +4,8 @@
     #spRequested {
         display: none;
     }
+
+    .dvCards {
+        background-color: rebeccapurple;
+    }
 }
