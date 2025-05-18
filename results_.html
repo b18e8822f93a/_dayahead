@@ -13,3 +13,102 @@
     <script>window.onload = () => onloadWindow(resultsObj)</script>
     <script src="outturns.json.js"></script>
 </head>
+
+
+
+<body>
+        <div class="grid-container-page">
+            <div class="grid-container-heading grid-item">
+                <div id="dv0">
+                    
+                </div>
+                <div id="dv1">
+                    
+    <div id="dv1">
+        <div class="btn-group w-100 pt-1 ps-1 pe-1">
+            <input type="radio" class=" btn-check" name="btnRadioC" id="btnRadioC1" autocomplete="off" value="1" checked="checked">
+            <label class=" btn btn-outline-success btn-sm w-100" for="btnRadioC1">Table</label>
+
+            <input type="radio" class=" btn-check" name="btnRadioC" id="btnRadioC2" autocomplete="off" value="0">
+            <label class=" btn btn-outline-success btn-sm w-100" for="btnRadioC2">Chart</label>
+        </div>
+        
+         <div class="w-100 pt-1 ps-1 pe-1 dvTable"> 
+            <div id="btnGroup1" class="btn-group w-100 pt-1 ps-1 pe-1">
+                <input type="radio" class=" btn-check" name="btnRadioA" id="btnRadioA1" autocomplete="off" value="0">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioA1">Date Order</label>
+
+                <input type="radio" class=" btn-check" name="btnRadioA" id="btnRadioA2" autocomplete="off" value="1">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioA2">Error Order</label>
+            </div>
+
+            <div id="btnGroupB" class="btn-group w-100 pt-1 ps-1 pe-1">
+                <input type="radio" class="btn-check" name="btnRadioB" id="btnRadioB1" autocomplete="off" value="0">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioB1">Lowest First</label>
+
+                <input type="radio" class=" btn-check" name="btnRadioB" id="btnRadioB2" autocomplete="off" value="1">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioB2">Highest First</label>
+            </div>
+        </div>
+
+        <div class="w-100 pt-1 ps-1 pe-1 dvChartOn hiding2"> 
+            <div id="btnGroup1" class="btn-group w-100 pt-1 ps-1 pe-1">
+                <input type="radio" class=" btn-check" name="btnRadioD" id="btnRadioD1" autocomplete="off" value="0">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioD1">Line</label>
+
+                <input type="radio" class=" btn-check" name="btnRadioD" id="btnRadioD2" autocomplete="off" value="1" checked="checked">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioD2">Error</label>
+
+                <input type="radio" class=" btn-check" name="btnRadioD" id="btnRadioD3" autocomplete="off" value="2">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioD3">Percent</label>
+
+                <input type="radio" class=" btn-check" name="btnRadioD" id="btnRadioD4" autocomplete="off" value="3">
+                <label class="btn btn-outline-success btn-sm w-100" for="btnRadioD4">Histogram</label>
+            </div>
+        </div>
+    </div>       
+       <div id="dvLabel" class="w-100 pt-1 ps-1 pe-1"><p style="text-align:center">Average Error of £-59.94. Average Percentage Error of -73.15%.</p></div>         
+
+                </div>  
+            </div> 
+            <div id="dvMessage" class="datafail hiding2">
+                <h1>sorry unable to connect at this time, a retry will be attempted in two minutes</h1>
+            </div>
+            <div id="dvSpinnerContainer" class="whenspin hiding2">
+                <div id="dvSpinner" class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        <div id="dvChart" class="dvChart hiding2" style="overflow: hidden;" data-highcharts-chart="0"><div id="highcharts-snenjp5-0" dir="ltr" style="position: relative; overflow: hidden; width: 359px; height: 641px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); user-select: none; touch-action: manipulation; outline: none;" class="highcharts-container "><svg version="1.1" class="highcharts-root" style="font-family: Helvetica, Arial, sans-serif; font-size: 1rem;" xmlns="http://www.w3.org/2000/svg" width="359" height="641" viewBox="0 0 359 641" role="img" aria-label=""><desc>Created with Highcharts 11.4.1</desc><defs><filter id="highcharts-drop-shadow-0"><feDropShadow dx="1" dy="1" flood-color="#000000" flood-opacity="0.75" stdDeviation="2.5"></feDropShadow></filter><clipPath id="highcharts-snenjp5-2-"><rect x="0" y="0" width="281" height="586" fill="none"></rect></clipPath></defs><rect fill="#ffffff" class="highcharts-background" filter="none" x="0" y="0" width="359" height="641" rx="0" ry="0"></rect><rect fill="none" class="highcharts-plot-background" x="68" y="10" width="281" height="586" filter="none"></rect><g class="highcharts-grid highcharts-xaxis-grid" data-z-index="1"><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 349.5 10 L 349.5 596" opacity="1"></path><path fill="none" stroke="#e6e6e6" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 67.5 10 L 67.5 596" opacity="1"></path></g><g class="highcharts-grid highcharts-yaxis-grid" data-z-index="1"><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 596.5 L 349 596.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 579.5 L 349 579.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 563.5 L 349 563.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 546.5 L 349 546.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 529.5 L 349 529.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 512.5 L 349 512.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 496.5 L 349 496.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 479.5 L 349 479.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 462.5 L 349 462.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 445.5 L 349 445.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 429.5 L 349 429.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 412.5 L 349 412.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 395.5 L 349 395.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 378.5 L 349 378.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 362.5 L 349 362.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 345.5 L 349 345.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 328.5 L 349 328.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 311.5 L 349 311.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 295.5 L 349 295.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 278.5 L 349 278.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 261.5 L 349 261.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 244.5 L 349 244.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 228.5 L 349 228.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 211.5 L 349 211.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 194.5 L 349 194.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 177.5 L 349 177.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 161.5 L 349 161.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 144.5 L 349 144.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 127.5 L 349 127.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 110.5 L 349 110.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 94.5 L 349 94.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 77.5 L 349 77.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 60.5 L 349 60.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 43.5 L 349 43.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 27.5 L 349 27.5" opacity="1"></path><path fill="none" stroke="#ffe6cc" stroke-width="1" stroke-dasharray="none" class="highcharts-minor-grid-line" d="M 68 9.5 L 349 9.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 596.5 L 349 596.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 512.5 L 349 512.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 429.5 L 349 429.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 345.5 L 349 345.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 261.5 L 349 261.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 177.5 L 349 177.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 94.5 L 349 94.5" opacity="1"></path><path fill="none" stroke="#ffbf80" stroke-width="1" stroke-dasharray="none" data-z-index="1" class="highcharts-grid-line" d="M 68 9.5 L 349 9.5" opacity="1"></path></g><rect fill="none" class="highcharts-plot-border" data-z-index="1" stroke="#cccccc" stroke-width="0" x="68" y="10" width="281" height="586"></rect><g class="highcharts-axis highcharts-xaxis" data-z-index="2"><path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="1" data-z-index="7" d="M 68 596.5 L 349 596.5"></path></g><g class="highcharts-axis highcharts-yaxis" data-z-index="2"><text x="25.330078125" data-z-index="7" text-anchor="middle" transform="translate(0,0) rotate(270 25.330078125 303)" class="highcharts-axis-title" style="color: rgb(102, 102, 102); font-size: 0.8em; text-transform: uppercase; fill: rgb(102, 102, 102);" y="303">£</text><path fill="none" class="highcharts-axis-line" stroke="#333333" stroke-width="0" data-z-index="7" d="M 68 10 L 68 596"></path></g><g class="highcharts-series-group" data-z-index="3" filter="none"><g class="highcharts-series highcharts-series-0 highcharts-column-series highcharts-color-0 highcharts-tracker" data-z-index="0.1" opacity="1" transform="translate(68,10) scale(1 1)" clip-path="url(#highcharts-snenjp5-2-)"><path fill="red" d="M 8 0 L 273 0 A 0 0 0 0 1 273 0 L 273 500 A 3 3 0 0 1 270 503 L 11 503 A 3 3 0 0 1 8 500 L 8 0 A 0 0 0 0 1 8 0 Z" stroke="#555" stroke-width="0" opacity="1" filter="none" class="highcharts-point highcharts-negative highcharts-color-0"></path></g><g class="highcharts-markers highcharts-series-0 highcharts-column-series highcharts-color-0" data-z-index="0.1" opacity="1" transform="translate(68,10) scale(1 1)" clip-path="none"></g></g><text x="180" text-anchor="middle" class="highcharts-title" data-z-index="4" style="font-size: 1.2em; color: rgb(51, 51, 51); font-weight: bold; fill: rgb(51, 51, 51);" y="25"></text><text x="180" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="24"></text><text x="10" text-anchor="start" class="highcharts-caption" data-z-index="4" style="color: rgb(102, 102, 102); font-size: 0.8em; fill: rgb(102, 102, 102);" y="638"></text><g class="highcharts-axis-labels highcharts-xaxis-labels" data-z-index="7"><text x="208.5" text-anchor="middle" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 0.8em; fill: rgb(51, 51, 51);" y="623" opacity="1">2025-05-13</text></g><g class="highcharts-axis-labels highcharts-yaxis-labels" data-z-index="7"><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="601" opacity="1">-70</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="517" opacity="1">-60</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="434" opacity="1">-50</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="350" opacity="1">-40</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="266" opacity="1">-30</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="182" opacity="1">-20</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="99" opacity="1">-10</text><text x="53" text-anchor="end" transform="translate(0,0)" style="color: rgb(51, 51, 51); cursor: default; font-size: 12px; fill: rgb(51, 51, 51);" y="15" opacity="1">0</text></g></svg></div></div>
+        <div class="dvTable" style="width: 100% ;overflow-y:auto" id="dvTable">
+        <table class="T2" border="3">
+        <thead>
+        <tr><th>Day</th>
+        <th>Actual</th>
+        <th>Guess</th>
+        <th>Error</th>
+        <th>Percent</th>
+        </tr></thead>
+        <tbody>
+        <tr style="background-color:undefined"><td>2025-05-13</td><td>81.94</td><td>22</td><td>-59.94</td><td>-73.15</td></tr></tbody></table></div>
+        <div class="dvCards" id="dvCards" style="overflow-y:auto">
+        <table class="T2" border="3">
+        <thead>
+        <tr><th>Day</th>
+        <th>Actual</th>
+        <th>Guess</th>
+        <th>Error</th>
+        <th>%</th>
+        </tr></thead>
+        <tbody>
+        <tr style="background-color:undefined"><td>2025-05-13</td><td>81.94</td><td>22</td><td>-59.94</td><td>-73.15</td></tr></tbody></table></div>
+        <div class="grid-container-footer grid-item ">
+        
+        <div class="footerFlex">
+        <span id="spRequested" class="spanHeader">Last updated at Sun May 18 2025 11:59:17 GMT+0100 (British Summer Time)</span>
+        </div>
+        
+        </div>
+        </div>
+        
+        </body></html>
